@@ -148,12 +148,9 @@ footer nav a {
 .logo {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: flex-start;
   }
 
 .logo-img {
@@ -166,11 +163,11 @@ header {
     background: white;
 }
 header nav {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px;
     font-size: 14px;
 }
 
@@ -297,13 +294,40 @@ header nav a {
     margin: 0 auto;
 }
 
-.flex-about {
+
+.about-page .container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: flex-end;
+}
+
+.about-page .test {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about-page .alley {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+
+.about-page .alley .text-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width:50%;
+    float: left;
+    word-wrap: normal;
+}
+
+.about-page .middle {
+    display:flex;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
