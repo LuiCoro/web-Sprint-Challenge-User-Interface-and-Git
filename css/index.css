@@ -261,3 +261,28 @@ header nav a {
     align-items: center;
     justify-content: center;
 }
+
+
+/* About HTML CSS ONLY */
+.button {
+    border:2px black solid;
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.container .about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-page .text-container{
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
